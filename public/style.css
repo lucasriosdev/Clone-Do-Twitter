@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #eef6fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(https://d13kjxnqnhcmn2.cloudfront.net/AcuCustom/Sitename/DAM/076/X_-_Main.jpg);
+  background-size: cover;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 10px 20px;
+  background: #1DA1F2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 30px;
+}
+
+header button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  background: white;
+  color: #1DA1F2;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover{
+    color: rgb(32, 0, 128);
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 15px 0;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card input, .card textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #1DA1F2;
+  color: white;
+  cursor: pointer;
+  
+}
+
+.card button:hover{
+    opacity: 0.8;
+}
+
+
+
+.alerta {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.alerta button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background: crimson;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}

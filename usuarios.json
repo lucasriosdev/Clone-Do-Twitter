@@ -1,0 +1,15 @@
+[
+  {
+    "usuario": "lucas",
+    "senha": "123",
+    "posts": [
+      "teste",
+      "sdsdsd"
+    ]
+  },
+  {
+    "usuario": "otavio",
+    "senha": "456",
+    "posts": []
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "av3",
+  "version": "1.0.0",
+  "main": "backend.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
