@@ -58,9 +58,6 @@ Adicionar registro de novos usuários
 Implementar exibição de posts
 Adicionar sistema de likes/comentários
 
-![GitHub last commit](https://img.shields.io/github/last-commit/lucasriosdev/Clone-Do-Twitter)
-![GitHub repo size](https://img.shields.io/github/repo-size/lucasriosdev/Clone-Do-Twitter)
-
 📄 Licença
 Este projeto está sob a licença MIT.
 
